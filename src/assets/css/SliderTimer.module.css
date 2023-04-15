@@ -1,0 +1,16 @@
+.figure{
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+.active{
+    opacity: 1;
+}
+.image{
+    width: 100%;
+    height: 100%;}
+
+

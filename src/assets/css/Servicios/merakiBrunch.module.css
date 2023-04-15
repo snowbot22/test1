@@ -1,0 +1,16 @@
+.main_container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: 5rem 0;
+}
+.main_container_text{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    padding:3rem;
+}
+.main_container_text p{
+    line-height: 3.2rem;
+}

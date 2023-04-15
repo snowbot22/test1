@@ -1,0 +1,41 @@
+/*********************
+* OFERTA *
+*********************/
+.conciertos__oferta{
+    margin-top: 4rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.conciertos__oferta h3{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.conciertos__section{
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 7rem;
+}
+.conciertos__container__left{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+.conciertos__container__left p{
+    width: 45%;
+    max-width: 45rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 600;
+}
+.conciertos__container__left figure{
+    justify-self: flex-start;
+    width: 55%;
+    height: 40rem;
+    max-width: 47rem;
+}
