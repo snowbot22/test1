@@ -1,13 +1,10 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import ServicesBar from '../../components/ServicesBar';
-import Stock5 from "../../assets/images/services/stock--5.webp";
 import ServicesTemplate from '../../components/ServicesTemplate';
 import Meraki3 from "../../assets/images/meraki/meraki--1.jpg";
 import * as LocacionesStyle from "../../assets/css/servicios/locaciones.module.css";
 import ContactButtons from '../../components/ContactButtons';
-import { BsFillArrowLeftCircleFill } from "react-icons/bs";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Maps from "../../assets/images/google-maps-22.jpg";
 
 function locaciones() {
@@ -64,12 +61,6 @@ function locaciones() {
                     <figure>
                         <img className='img--large' src={Maps} alt="Mapa de ubicación" />
                     </figure>
-            </section>
-            <section className={LocacionesStyle.cumbaya__slider}>
-              <BsFillArrowLeftCircleFill />
-              <figure>
-              </figure>
-              <BsFillArrowRightCircleFill />
             </section>
         </article>
     </Layout>

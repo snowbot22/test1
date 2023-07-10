@@ -1,12 +1,16 @@
 import React from 'react';
-import Layout from '../components/Layout';
-import Form from '../components/Form';
-import "../assets/css/global.css"
-import * as ContactoStyle from '../assets/css/contacto.module.css';
-import {BsWhatsapp} from "react-icons/bs";
-import Stock6 from '../assets/images/services/stock--6.webp';
 
-function Contacto() {
+
+import Form from '../components/Form';
+import Layout from '../components/Layout';
+import Stock2 from '../assets/images/stock--2.jpg';
+import {BsWhatsapp} from "react-icons/bs";
+import * as ContactoStyle from '../assets/css/contacto.module.css';
+import "../assets/css/global.css"
+
+
+
+function contacto() {
   return (
     <Layout>
         <article className={ContactoStyle.info}>
@@ -43,7 +47,7 @@ function Contacto() {
                 </div>
             </section>
             <figure>
-                <img className="img--large" src={Stock6} alt="Contacto" />
+                <img className="img--large" src={Stock2} alt="Contacto" />
             </figure>
         </article>
         <Form />
@@ -51,4 +55,4 @@ function Contacto() {
   )
 }
 
-export default Contacto
+export default contacto
